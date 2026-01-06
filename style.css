@@ -40,6 +40,11 @@
     line-height: 30px;
     margin-bottom: 30px;
 }
+ .btn:hover{
+     color: #FD6E0A;
+    background-color: #ffffff;
+    border: 2px solid #FD6E0A;
+}
 
 
 /* main style */
@@ -120,6 +125,20 @@ nav .list{
     gap:30px
 }
 
+ .banner-btn .btn-contact{
+    color: #FD6E0A;
+    background-color: #ffffff;
+    border: 2px solid #FD6E0A;
+    c
+ }
+.banner-btn .btn-contact:hover{
+    box-shadow:
+    0 15px 50px rgba(253, 110, 10, 0.7) ,
+    0 10px 20px rgba(253, 110, 10, 0.7);
+  transform: translateY(-1px);
+
+}
+
 /* .btn2{
     border: 1px solid #FD6E0A;
     color: #FD6E0A;
@@ -135,7 +154,7 @@ nav .list{
     max-width: 584px;
 }
 
-#about{
+#about , #skills, #resume {
     margin-top: 130px;
 }
 #about .about-container{
@@ -165,9 +184,7 @@ nav .list{
     color: #474747;
 }
 
-#skills{
-    margin-top: 130px;
-}
+
 .skills-container{
     width: 71%;
     max-width: 1140px;
@@ -214,3 +231,106 @@ nav .list{
     color: #757575;
     line-height: 28px;
 }
+
+.resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin:  113px  auto 50px;
+    display: flex;
+    gap: 24px;
+}
+.education, .experience{
+   /* margin-top: 130px; */
+}
+
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color:#474747;
+    margin-bottom: 30px;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px
+    /* border: 2px solid red */
+    ;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.card-info{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.card-text{
+    font-size: 16px;
+    line-height: 28px;
+    color:#757575;
+    margin-bottom: 30px;
+}
+
+#form{
+    margin-top: 113px;
+    background-color:#FFF8F3 ;
+}
+.form-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    padding:  130px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.media-title, .form-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* .form-container{
+    display: flex;
+    gap: 117px;
+    /* margin-top: 130px; */
+    /* border: 2px solid #FD6E0A; */
+
+.form-container .form-text{
+    font-size:16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+    
+}
+.media-box{
+    max-width: 562px;
+}
+.media-box ul{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.media-box ul li a{
+    font-size: 24px;
+    color: #FD6E0A;
+}
+
+.form-box input[type="text"],
+.form-box  textarea {
+          width: 461px;
+          padding:18px 31px;
+          margin-bottom: 24px;
+          border: none;
+          border-radius: 5px;
+          color:#757575;
+}
+
