@@ -93,12 +93,15 @@ nav .list{
     list-style: none;
 }
 
-.list li a{
+.menu{
     text-decoration: none;
     font-size: 20px;
     color:#474747;
 }
 
+.menu:hover{
+    border-bottom: 2px solid #474747;
+}
 #banner{
     /* border: 1px solid red; */
     margin:47px 38px 0px 230px;
