@@ -331,7 +331,14 @@ nav .list{
 .media-box ul li a{
     font-size: 24px;
     color: #FD6E0A;
+    opacity: 70%;
+    cursor: pointer;
 }
+
+.media-box ul li a:hover{
+ opacity: 100%;
+}
+
 
 .form-box input[type="text"],
 .form-box  textarea {
